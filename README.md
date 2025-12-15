@@ -42,25 +42,3 @@ FastAPI
 SQLAlchemy ORM
 
 SQLite database
-
-🏗️ Project Architecture
-ReminderFlow/
-│
-├── backend/        # FastAPI REST API
-│   ├── main.py
-│   ├── models.py
-│   ├── schemas.py
-│   ├── database.py
-│   └── requirements.txt
-│
-└── frontend/       # React UI
-    ├── index.html
-    ├── package.json
-    └── src/
-        ├── App.jsx
-        ├── main.jsx
-        ├── api.js
-        ├── styles.css
-        └── components/
-            ├── TodoForm.jsx
-            └── TodoList.jsx
